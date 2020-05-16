@@ -1,0 +1,39 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+
+      - name: Get last commit
+        id: commit
+        run: echo "::set-output name=hash::$(git rev-parse HEAD)"
+
+      - name: Build
+        run: |
+          npm install --only=dev
+          npm install
+          npm run build
+        env:
+          CI: true
+          NODE_ENV: production
+          VUE_APP_COMMIT_HASH: ${{steps.commit.outputs.hash}}
+          VUE_APP_BUILD_DATE: ${{steps.date.outputs.date}}
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: dist
