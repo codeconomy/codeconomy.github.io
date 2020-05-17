@@ -18,7 +18,7 @@ export const services = [
     "Approved": "Yes",
     "Category": "Website Tools",
     "URL": "https://intercom.com",
-    "Description": "We make customer messaging apps for sales, marketing, and support, connected on one platform. Our mission is to make business personal again.",
+    "Description": "",
     "Discount": "100%",
     "Does it drive you into a paid account": "Maybe, you need to enter payment information and will be charged automatically after 2 years.",
     "Requirement": "Free of charge to any company or institution fighting COVID-19 and its impact on society, or working to help those affected.",
@@ -32,7 +32,7 @@ export const services = [
     "Approved": "Yes",
     "Category": "Website Tools",
     "URL": "https://airtable.com",
-    "Description": "",
+    "Description": "Airtable works like a spreadsheet but gives you the power of a database to organize anything. Sign up for free.",
     "Discount": "100%",
     "Does it drive you into a paid account": "No, no need for payment information and 1 year free trial",
     "Requirement": "Airtable is making Airtable Pro available for free to any non-political humanitarian group that is working on COVID-19 relief efforts.",
@@ -120,7 +120,7 @@ export const services = [
     "Discount": "100%",
     "Does it drive you into a paid account": "No",
     "Requirement": "Your business has been substantially affected by COVID-19",
-    "Favicon": "",
+    "Favicon": "/assets/icon128-53d136bb0aa1c128a1a32fc3630d28eb4d3659aaa9fc748839e8d489221fe2f9.png",
     "How to apply (text)": "Install Chrome extension @ https://trypigeon.co",
     "How to apply (URL or email)": "pat@trypigeon.co",
     "More info URL": ""
@@ -764,7 +764,7 @@ export const services = [
     "Discount": "Free during lockdown",
     "Does it drive you into a paid account": "Maybe, with the upsells.",
     "Requirement": "",
-    "Favicon": "",
+    "Favicon": "https://assets.calendly.com/assets/touch-icon-iphone-1505f4afb6438bd528bbce368a44a76d03bd0882a99fee0dd7e580619a51d90b.png",
     "How to apply (text)": "Just create a free account and you have immediate access.",
     "How to apply (URL or email)": "https://calendly.com/",
     "More info URL": "https://blog.calendly.com/meeting-integration-update/"
@@ -1730,7 +1730,7 @@ export const services = [
     "Discount": "Free tier of recruitment softwre",
     "Does it drive you into a paid account": "Maybe, if there's further interest in additional features or tiers",
     "Requirement": "Must have an Applicant Tracking System",
-    "Favicon": "",
+    "Favicon": "/favicon.png",
     "How to apply (text)": "Just sign up",
     "How to apply (URL or email)": "https://register.joonko.com",
     "More info URL": "https://joonko.co/how-it-works"
@@ -2038,7 +2038,7 @@ export const services = [
     "Discount": "100%",
     "Does it drive you into a paid account": "Maybe, but after 6 months you'll move to a lower volume forever free plan",
     "Requirement": "None",
-    "Favicon": "/images/favicons/favicon.ico",
+    "Favicon": "",
     "How to apply (text)": "Reply to the welcome email + mention COVID-19",
     "How to apply (URL or email)": "https://continual.ly/",
     "More info URL": "https://continual.ly/"
@@ -2122,7 +2122,7 @@ export const services = [
     "Discount": "50% off on all plans",
     "Does it drive you into a paid account": "Yes",
     "Requirement": "None",
-    "Favicon": "https://www.seowl.co/wp-content/uploads/2020/05/cropped-Fichier-1@2x-180x180.png",
+    "Favicon": "",
     "How to apply (text)": "Email support@seowl.co",
     "How to apply (URL or email)": "support@seowl.co",
     "More info URL": "https://www.seowl.co"
@@ -3848,5 +3848,19 @@ export const services = [
     "How to apply (text)": "Sign up",
     "How to apply (URL or email)": "https://app.breezy.hr/signup",
     "More info URL": "https://breezy.hr/blog/covid-19-hiring-remote-video-interviews-assessments"
+  },
+  {
+    "Name": "This is a test",
+    "Approved": "",
+    "Category": "App Store Optimisation",
+    "URL": "http://jogh.com",
+    "Description": "A description",
+    "Discount": "10%",
+    "Does it drive you into a paid account": "Yes",
+    "Requirement": "None",
+    "Favicon": "",
+    "How to apply (text)": "Sign up",
+    "How to apply (URL or email)": "https://app.jogh.hr/signup",
+    "More info URL": ""
   }
 ]
