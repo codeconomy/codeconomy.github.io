@@ -8,7 +8,7 @@ export const services = [
     "Discount": "$1,000",
     "Does it drive you into a paid account": "Maybe, but you can get pretty far with $1000.",
     "Requirement": "Expires one year after it is issued",
-    "Favicon": "/apple-touch-icon.png",
+    "Favicon": "",
     "How to apply (text)": "Fill in their form on a special page",
     "How to apply (URL or email)": "https://www.digitalocean.com/community/pages/covid-19",
     "More info URL": ""
@@ -64,7 +64,7 @@ export const services = [
     "Discount": "100%",
     "Does it drive you into a paid account": "No",
     "Requirement": "",
-    "Favicon": "https://leverice.com/wp-content/uploads/2020/03/favicon.ico",
+    "Favicon": "",
     "How to apply (text)": "Click on \"Get Started\" or \"Try Now\" button on homepage.",
     "How to apply (URL or email)": "https://leverice.com",
     "More info URL": ""
@@ -106,7 +106,7 @@ export const services = [
     "Discount": "100%",
     "Does it drive you into a paid account": "No, you get an extended free trial (6 months), no credit card needed.",
     "Requirement": "COVID-19 projects, or anyone who can't afford it (literally or mentally)",
-    "Favicon": "",
+    "Favicon": "https://mindwave.app/assets/favicons/apple-touch-icon.png",
     "How to apply (text)": "Email: support@mindwave.app",
     "How to apply (URL or email)": "support@mindwave.app",
     "More info URL": "https://mindwave.app/stories/covid-19-and-my-tiny-contribution-LVjv0V"
@@ -358,7 +358,7 @@ export const services = [
     "Discount": "100%",
     "Does it drive you into a paid account": "No, no need for payment information and 6 months free usage.",
     "Requirement": "To use for a covid-related site or tool, link back appreciated.",
-    "Favicon": "/icons/icon-48x48.png?v=9ac1f3fc4286e7d9318862f69ebc6f89",
+    "Favicon": "",
     "How to apply (text)": "Email: support@polypane.app",
     "How to apply (URL or email)": "support@polypane.app",
     "More info URL": "https://polypane.app"
@@ -946,7 +946,7 @@ export const services = [
     "Discount": "Free 3 month 5 person business plan",
     "Does it drive you into a paid account": "Maybe, after 3 months or more than 5 persons",
     "Requirement": "Organizations with 50+ employees/volunteers and 30 minute on-boarding required",
-    "Favicon": "",
+    "Favicon": "//shiftx.imgix.net/images/public/favicon.pdf?fm=png&w=57&h=57",
     "How to apply (text)": "Chat bubble on https://shiftx.com or support@shiftx.com",
     "How to apply (URL or email)": "support@shiftx.com",
     "More info URL": ""
@@ -1730,7 +1730,7 @@ export const services = [
     "Discount": "Free tier of recruitment softwre",
     "Does it drive you into a paid account": "Maybe, if there's further interest in additional features or tiers",
     "Requirement": "Must have an Applicant Tracking System",
-    "Favicon": "",
+    "Favicon": "/favicon.png",
     "How to apply (text)": "Just sign up",
     "How to apply (URL or email)": "https://register.joonko.com",
     "More info URL": "https://joonko.co/how-it-works"
@@ -2150,7 +2150,7 @@ export const services = [
     "Discount": "Free until 1 June",
     "Does it drive you into a paid account": "No, no payment details required.",
     "Requirement": "Businesses heavily impacted by COVID-19",
-    "Favicon": "https://spotonwifi.com/wp-content/uploads/2017/07/cropped-logo-1-180x180.png",
+    "Favicon": "",
     "How to apply (text)": "Use coupon: FIGHTCOVID",
     "How to apply (URL or email)": "info@spotonwifi.com",
     "More info URL": "https://spotonwifi.com"
@@ -3294,7 +3294,7 @@ export const services = [
     "Approved": "",
     "Category": "Edtech",
     "URL": "https://kintell.com/",
-    "Description": "",
+    "Description": "Kintell connects people looking for advice with those qualified to give it, via paid or Pro Bono video sessions.",
     "Discount": "$20 credit upon signup",
     "Does it drive you into a paid account": "Maybe, it's a credit",
     "Requirement": "New users only",
