@@ -1193,6 +1193,7 @@ export default {
           const {
             does_it_drive_you_into_a_paid_account: paid,
             favicon,
+            category: categorychoice,
           } = service;
           if (favicon) {
             const url = !service.url.startsWith("http")
@@ -1235,7 +1236,127 @@ export default {
               ? ", " + paid.split(",")[1].trim()
               : ".";
           }
-
+          
+                    if (categorychoice) {
+            if (/^ads/i.test(categorychoice)) {
+              service.selectedCategory = "ads";
+            } else if (/^affiliate marketing/i.test(categorychoice)) {
+              service.selectedCategory = "affiliate marketing";
+            } else if (/^analytics/i.test(categorychoice)) {
+              service.selectedCategory = "analytics";
+            } else if (/^app store optimisation/i.test(categorychoice)) {
+              service.selectedCategory = "app store optimisation";
+            } else if (/^assessments/i.test(categorychoice)) {
+              service.selectedCategory = "assessments";
+            } else if (/^authentication/i.test(categorychoice)) {
+              service.selectedCategory = "authentication";
+            } else if (/^backup/i.test(categorychoice)) {
+              service.selectedCategory = "backup";
+            } else if (/^business intelligence/i.test(categorychoice)) {
+              service.selectedCategory = "business intelligence";
+            } else if (/^cartography/i.test(categorychoice)) {
+              service.selectedCategory = "cartography";
+            } else if (/^cms/i.test(categorychoice)) {
+              service.selectedCategory = "cms";
+            } else if (/^content marketing/i.test(categorychoice)) {
+              service.selectedCategory = "content marketing";
+            } else if (/^contract management/i.test(categorychoice)) {
+              service.selectedCategory = "contract management";
+            } else if (/^crm/i.test(categorychoice)) {
+              service.selectedCategory = "crm";
+            } else if (/^cybersecurity/i.test(categorychoice)) {
+              service.selectedCategory = "cybersecurity";
+            } else if (/^data collection/i.test(categorychoice)) {
+              service.selectedCategory = "data collection";
+            } else if (/^delivery management/i.test(categorychoice)) {
+              service.selectedCategory = "delivery management";
+            } else if (/^developer tools/i.test(categorychoice)) {
+              service.selectedCategory = "developer tools";
+            } else if (
+              /^diagramming and collaboration tool/i.test(categorychoice)
+            ) {
+              service.selectedCategory = "diagramming and collaboration tools";
+            } else if (/^domain names/i.test(categorychoice)) {
+              service.selectedCategory = "domain names";
+            } else if (/^ecommerce software/i.test(categorychoice)) {
+              service.selectedCategory = "ecommerce software";
+            } else if (/^edtech/i.test(categorychoice)) {
+              service.selectedCategory = "edtech";
+            } else if (/^email/i.test(categorychoice)) {
+              service.selectedCategory = "email";
+            } else if (/^email signature manager/i.test(categorychoice)) {
+              service.selectedCategory = "email signature manager";
+            } else if (/^finance/i.test(categorychoice)) {
+              service.selectedCategory = "finance";
+            } else if (/^health records/i.test(categorychoice)) {
+              service.selectedCategory = "health records";
+            } else if (/^help desk software/i.test(categorychoice)) {
+              service.selectedCategory = "help desk software";
+            } else if (/^hosting/i.test(categorychoice)) {
+              service.selectedCategory = "hosting";
+            } else if (/^hr/i.test(categorychoice)) {
+              service.selectedCategory = "hr";
+            } else if (/^incident management/i.test(categorychoice)) {
+              service.selectedCategory = "incident management";
+            } else if (/^internal communication/i.test(categorychoice)) {
+              service.selectedCategory = "internal communication";
+            } else if (/^lead generation/i.test(categorychoice)) {
+              service.selectedCategory = "lead generation";
+            } else if (/^live presentation/i.test(categorychoice)) {
+              service.selectedCategory = "live presentation";
+            } else if (/^low-code\/no-code/i.test(categorychoice)) {
+              service.selectedCategory = "low-code/no-code";
+            } else if (/^management tools/i.test(categorychoice)) {
+              service.selectedCategory = "management tools";
+            } else if (/^marketing automation/i.test(categorychoice)) {
+              service.selectedCategory = "marketing automation";
+            } else if (/^marketing\/ livechat/i.test(categorychoice)) {
+              service.selectedCategory = "marketing/ livechat";
+            } else if (/^maonitoring/i.test(categorychoice)) {
+              service.selectedCategory = "maonitoring";
+            } else if (/^people management/i.test(categorychoice)) {
+              service.selectedCategory = "people management";
+            } else if (/^productivity tools/i.test(categorychoice)) {
+              service.selectedCategory = "productivity tools";
+            } else if (/^project management/i.test(categorychoice)) {
+              service.selectedCategory = "project management";
+            } else if (/^recruitment/i.test(categorychoice)) {
+              service.selectedCategory = "recruitment";
+            } else if (/^remote work/i.test(categorychoice)) {
+              service.selectedCategory = "remote work";
+            } else if (/^reporting/i.test(categorychoice)) {
+              service.selectedCategory = "reporting";
+            } else if (/^sales tools/i.test(categorychoice)) {
+              service.selectedCategory = "sales tools";
+            } else if (/^slack app/i.test(categorychoice)) {
+              service.selectedCategory = "slack app";
+            } else if (/^software editor/i.test(categorychoice)) {
+              service.selectedCategory = "software editor";
+            } else if (/^spreadsheets/i.test(categorychoice)) {
+              service.selectedCategory = "spreadsheets";
+            } else if (/^video & music/i.test(categorychoice)) {
+              service.selectedCategory = "video & music";
+            } else if (/^vpn/i.test(categorychoice)) {
+              service.selectedCategory = "vpn";
+            } else if (/^web\/graphic design/i.test(categorychoice)) {
+              service.selectedCategory = "web/graphic design";
+            } else if (/^website builder/i.test(categorychoice)) {
+              service.selectedCategory = "website builder";
+            } else if (/^website tools/i.test(categorychoice)) {
+              service.selectedCategory = "website tools";
+            } else if (/^shipping software/i.test(categorychoice)) {
+              service.selectedCategory = "shipping software";
+            } else if (/^customer feedback/i.test(categorychoice)) {
+              service.selectedCategory = "customer feedback";
+            } else if (/^mobile app/i.test(categorychoice)) {
+              service.selectedCategory = "mobile app";
+            } else if (/^restaurant online ordering/i.test(categorychoice)) {
+              service.selectedCategory = "restaurant online ordering";
+            } else if (/^url shortener/i.test(categorychoice)) {
+              service.selectedCategory = "url shortener";
+            }
+          }
+         
           service.useEmail =
             service.how_to_apply_url_or_email &&
             service.how_to_apply_url_or_email.includes("@");
@@ -1255,6 +1376,9 @@ export default {
 
       return showServices.filter(({ driveToPaid }) => {
         return this.show.includes(driveToPaid);
+      });
+      .filter(({ selectedCategory }) => {
+        return this.show.includes(selectedCategory);
       });
     },
   },
