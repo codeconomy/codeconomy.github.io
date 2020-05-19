@@ -1376,7 +1376,7 @@ export default {
 
       return showServices.filter(({ driveToPaid }) => {
         return this.show.includes(driveToPaid);
-      });
+      })
       .filter(({ selectedCategory }) => {
         return this.show.includes(selectedCategory);
       });
