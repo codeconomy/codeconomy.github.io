@@ -1166,7 +1166,7 @@ export default {
       loading: true,
       buildDate: BUILD_DATE ? format(BUILD_DATE) : null,
       commitHash: COMMIT_HASH,
-      show: ["maybe", "no"],
+      show: ["maybe", "no", "ads"],
       category: null,
     };
   },
