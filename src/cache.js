@@ -106,7 +106,7 @@ export const services = [
     "Discount": "100%",
     "Does it drive you into a paid account": "No, you get an extended free trial (6 months), no credit card needed.",
     "Requirement": "COVID-19 projects, or anyone who can't afford it (literally or mentally)",
-    "Favicon": "",
+    "Favicon": "https://mindwave.app/assets/favicons/apple-touch-icon.png",
     "How to apply (text)": "Email: support@mindwave.app",
     "How to apply (URL or email)": "support@mindwave.app",
     "More info URL": "https://mindwave.app/stories/covid-19-and-my-tiny-contribution-LVjv0V"
@@ -120,7 +120,7 @@ export const services = [
     "Discount": "100%",
     "Does it drive you into a paid account": "No",
     "Requirement": "Your business has been substantially affected by COVID-19",
-    "Favicon": "",
+    "Favicon": "/assets/icon128-53d136bb0aa1c128a1a32fc3630d28eb4d3659aaa9fc748839e8d489221fe2f9.png",
     "How to apply (text)": "Install Chrome extension @ https://trypigeon.co",
     "How to apply (URL or email)": "pat@trypigeon.co",
     "More info URL": ""
@@ -358,7 +358,7 @@ export const services = [
     "Discount": "100%",
     "Does it drive you into a paid account": "No, no need for payment information and 6 months free usage.",
     "Requirement": "To use for a covid-related site or tool, link back appreciated.",
-    "Favicon": "/icons/icon-48x48.png?v=9ac1f3fc4286e7d9318862f69ebc6f89",
+    "Favicon": "",
     "How to apply (text)": "Email: support@polypane.app",
     "How to apply (URL or email)": "support@polypane.app",
     "More info URL": "https://polypane.app"
@@ -526,7 +526,7 @@ export const services = [
     "Discount": "50% for all packages",
     "Does it drive you into a paid account": "Maybe",
     "Requirement": "New customers",
-    "Favicon": "",
+    "Favicon": "https://netnut.io/wp-content/uploads/2020/04/cropped-Favicon-transparent-180x180.png",
     "How to apply (text)": "Email jeffy@netnut.io",
     "How to apply (URL or email)": "https://l.netnut.io/saasforcovid",
     "More info URL": "https://netnut.io/"
@@ -1380,7 +1380,7 @@ export const services = [
     "Discount": "50%",
     "Does it drive you into a paid account": "Maybe",
     "Requirement": "",
-    "Favicon": "",
+    "Favicon": "/icons/icon-48x48.png?v=d2c09b48cc97a2e6ba622e1da0d45c2f",
     "How to apply (text)": "There is already 50% discount on yearly subscription https://nocodeapi.com/pricing",
     "How to apply (URL or email)": "https://nocodeapi.com/pricing",
     "More info URL": "https://nocodeapi.com/what-is-nocodeapi"
@@ -1548,7 +1548,7 @@ export const services = [
     "Discount": "Free for 3 months",
     "Does it drive you into a paid account": "100% free for COVID-related data projects",
     "Requirement": "100% free for COVID-related data projects",
-    "Favicon": "https://databand.ai/wp-content/uploads/2019/11/Databand-Icon-150x150.png",
+    "Favicon": "https://databand.ai/wp-content/uploads/2019/11/Databand-Icon.png",
     "How to apply (text)": "Fill out demo request form",
     "How to apply (URL or email)": "https://databand.ai/request-demo/",
     "More info URL": ""
